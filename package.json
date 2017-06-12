@@ -10,14 +10,17 @@
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src"
   },
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
   "dependencies": {
     "axios": "^0.16.2",
-    "axios-mock-adapter": "^1.8.1",
+    "css-loader": "^0.28.4",
     "echarts": "^3.6.1",
     "element-ui": "^1.3.6",
-    "mockjs": "^1.0.1-beta3",
     "vue": "^2.3.3",
     "vue-router": "^2.3.1",
+    "vue-style-loader": "^3.0.1",
     "vuex": "^2.3.1"
   },
   "devDependencies": {
